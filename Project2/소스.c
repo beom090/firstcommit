@@ -18,6 +18,7 @@ int solution(int n) {
         {
             return sum;
         }
+        //바꾸자 코드를 바꿨따
         sum += n % 10;
         n = n / 10;
     }
